@@ -1,7 +1,6 @@
 #################################################################
 ##                      Funktionsoversigt                      ##
 #################################################################
-# test
 
 funktioner <- function() {
   cat("\n pakr:     tidyverse, janitor, bannerC \n\n",
@@ -880,6 +879,7 @@ behold <- function(...) {
   objs_remove <- setdiff(objs, keeps_exist)
   if (length(objs_remove)>0) {rm(list=objs_remove, pos=1)}
 }
+
 
 
 
